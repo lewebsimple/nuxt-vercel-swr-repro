@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   routeRules: {
-    "/**": { swr: 60 },
+    "/**": { isr: 60 },
   },
 });
